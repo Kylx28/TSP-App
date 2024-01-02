@@ -8,7 +8,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import './Map.css';
 
 
-const Token = "pk.eyJ1Ijoia3lseDI4IiwiYSI6ImNsbHN0M2wyZDB3d3czZG1sYzV1aWIwbG4ifQ.Hy1ju1ksgiRsSofMtplGuw";
+const Token = "Enter token here";
 
 function TSPMap(){
     const location = useLocation();
