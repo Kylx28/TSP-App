@@ -2,7 +2,7 @@ import requests
 
 def getDurationMatrix(destinations, mode):
     joined_destinations = '|'.join(map(str, destinations))
-    API_KEY = "Insery key"
+    API_KEY = "Insert key here"
 
     if mode == "DRIVING":
         url = f'https://maps.googleapis.com/maps/api/distancematrix/json?origins={joined_destinations}&destinations={joined_destinations}&mode=driving&key={API_KEY}'
